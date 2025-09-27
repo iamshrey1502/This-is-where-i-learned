@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+
+}
+#boss{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main {
+    height: 375px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color:dimgrey
+}
+#image{
+    height: 65px;
+    margin-bottom: 30px;
+    
+}
+#image img{
+    height:65px;
+    border: 2px solid black;
+    
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+#form button{
+    background-color: rgb(121, 193, 151);
+}
+#small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding:10px;
+    border: 2px solid white;
+    
+}
+#nav1 img{
+    height: 30px;
+    margin-right: 80px;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
