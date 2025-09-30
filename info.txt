@@ -1,0 +1,6 @@
+koi bhi element pr absolute lgane se wo upr uth jata h, aur use kahi bhi move kr skte ho
+top left bottom right and z-index kewal absolute,relative,fixed,sticky pr lgt
+relative humesha absolute ke parent ko dete h taaki absolute element uske respect mein move kre
+
+agar aapka ka div h jiske andr element sticky h wo element scroll krte krte uor chipak jayega aur tb tkk jbtkka 
+poora scroll nhi hoga - sticky relative to parent
