@@ -7,50 +7,26 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
 #main{
     height: 100%;
     width: 100%;
     background-color: black;
-    padding: 20px;
-    display: flex;
-    gap: 20px;
-}
-
-
-.card{
-    height: 300px;
-    width: 250px;
-    background-color: aqua;
-    border-radius: 10px;
-    position: relative;
-    transition: all ease 1s;
-    overflow: hidden;
 
 }
-.card img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
+.child{
+    height: 200px;
+    width:200px;
+    background-color: chartreuse;
 }
-
-.bottom{
-    height: 30%;
-    width: 100%;
-    
-    position: absolute;
-    bottom: -30%;
-    background: linear-gradient(transparent,black);
-    transition: all ease 0.3s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    font-size: 30px;
+/* .child:nth-child(1){
+    background-color: red;
 }
-
-.card:hover .bottom{
-    bottom: 0;
+.child:nth-last-child(1){
+    background-color: black;
+} */
+.child:nth-child(2n){
+    background-color: red;
+}
+.child:nth-child(2n-1){
+    background-color: blue;
 }
