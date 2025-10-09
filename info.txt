@@ -15,3 +15,7 @@ transform:scale()
 
 
 clippath by Bennet fly - custom shapes in CSS
+
+background mein text ke image and gif lga skte h video nhi
+gif-(short video without sound)
+webkit-text-stroke se text pr border de skte h 
