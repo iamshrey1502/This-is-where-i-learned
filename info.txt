@@ -4,3 +4,14 @@ relative humesha absolute ke parent ko dete h taaki absolute element uske respec
 
 agar aapka ka div h jiske andr element sticky h wo element scroll krte krte uor chipak jayega aur tb tkk jbtkka 
 poora scroll nhi hoga - sticky relative to parent
+
+
+box-sizing:border-box written in universal selector doesnt increase elements dimensions
+
+rotate(45deg) bydefault z axis aligned
+transform:translate()
+transform:rotate()
+transform:scale()
+
+
+clippath by Bennet fly - custom shapes in CSS
