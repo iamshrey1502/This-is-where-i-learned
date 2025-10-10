@@ -12,20 +12,34 @@ main{
     height: 100%;
     width: 100%;
     background-color: black;
-    display:grid;
+    color: white;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 1fr 100px;
-    row-gap: 10px;
-    column-gap: 10px;
+    grid-template-rows: 60px 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "div1 div2 div3";
+    grid-gap: 10px;
+    padding: 10px;
 }
-.child{
-    background-color: pink;
-    border: 2px solid white;
+header{
+    background-color: crimson;
+    grid-area: header;
 }
-#child1{
+section{
+    background-color: khaki;
+    grid-area: section;
+}
 
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-row-start: 1;
-    grid-row-end: 2;
+#div1{
+    background-color: blue;
+    grid-area: div1;
+}
+#div2{
+    background-color: blue;
+    grid-area: div2;
+}
+#div3{
+    background-color: blue;
+    grid-area: div3;
 }
