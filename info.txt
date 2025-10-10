@@ -19,3 +19,18 @@ clippath by Bennet fly - custom shapes in CSS
 background mein text ke image and gif lga skte h video nhi
 gif-(short video without sound)
 webkit-text-stroke se text pr border de skte h 
+
+
+SCSS- Sassy CSS(superset of CSS with more powers)
+three important concepts in SCSS - Nesting, Mixins, Partials & Imports
+
+units-
+1) Pixels - fixed(px)
+2) Percentage - dependent on parent(%)
+3) Viewport width - dependent on device screen(vw)
+4) Viewport height - dependent on device screen(vh)
+5) Viewport maximum - dependent on maximum of viewport's height or width(vmax)
+6) Viewport minimum - dependent on minimum of viewport's height or width(vmin)
+7) em - dependent on parent size, child vary accordingly can be controlled by parent
+8) rem - dependent on root element like <html>, child varies accordingly[1 rem=16px] can be controlled by root
+
