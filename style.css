@@ -8,20 +8,24 @@ html,body{
     width: 100%;
 }
 
-#main{
+main{
     height: 100%;
     width: 100%;
-    color: transparent;
     background-color: black;
-    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 100px;
+    row-gap: 10px;
+    column-gap: 10px;
 }
-h1{
-    font-size: 100px;
-    background-image: url(https://www.icegif.com/wp-content/uploads/fin-icegif.gif);
-    background-size: cover;
-    background-clip: text;
-    text-align: center;
+.child{
+    background-color: pink;
     border: 2px solid white;
-    -webkit-text-stroke: 2px red;
+}
+#child1{
 
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
