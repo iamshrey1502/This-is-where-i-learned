@@ -31,6 +31,8 @@ units-
 4) Viewport height - dependent on device screen(vh)
 5) Viewport maximum - dependent on maximum of viewport's height or width(vmax)
 6) Viewport minimum - dependent on minimum of viewport's height or width(vmin)
-7) em - dependent on parent size, child vary accordingly can be controlled by parent
-8) rem - dependent on root element like <html>, child varies accordingly[1 rem=16px] can be controlled by root
+7) em - dependent on parent size, child vary accordingly can be controlled by parent(nearest ancestors font-size)
+8) rem - dependent on root element like <html> font-size, child varies accordingly[1 rem=16px] can be controlled by root(font-size by default of <html> - 16px)
 
+Responsive - 
+Fluid Typography - clamp(lower limit,value,upper limit) - function
